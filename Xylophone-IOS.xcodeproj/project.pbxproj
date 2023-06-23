@@ -11,8 +11,9 @@
 		7C50C4C92A463BE90007B229 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50C4C82A463BE90007B229 /* SceneDelegate.swift */; };
 		7C50C4CB2A463BE90007B229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50C4CA2A463BE90007B229 /* ViewController.swift */; };
 		7C50C4CE2A463BE90007B229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C50C4CC2A463BE90007B229 /* Main.storyboard */; };
-		7C50C4D02A463BEA0007B229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C50C4CF2A463BEA0007B229 /* Assets.xcassets */; };
 		7C50C4D32A463BEA0007B229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C50C4D12A463BEA0007B229 /* LaunchScreen.storyboard */; };
+		7C50C4DB2A463C040007B229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C50C4DA2A463C040007B229 /* Assets.xcassets */; };
+		7C50C4DD2A463DE80007B229 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 7C50C4DC2A463DE80007B229 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		7C50C4C82A463BE90007B229 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7C50C4CA2A463BE90007B229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C50C4CD2A463BE90007B229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C50C4CF2A463BEA0007B229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C50C4D22A463BEA0007B229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C50C4D42A463BEA0007B229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C50C4DA2A463C040007B229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Documents/Xylophone-iOS13/Xylophone/Assets.xcassets"; sourceTree = "<group>"; };
+		7C50C4DC2A463DE80007B229 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 				7C50C4C82A463BE90007B229 /* SceneDelegate.swift */,
 				7C50C4CA2A463BE90007B229 /* ViewController.swift */,
 				7C50C4CC2A463BE90007B229 /* Main.storyboard */,
-				7C50C4CF2A463BEA0007B229 /* Assets.xcassets */,
+				7C50C4DA2A463C040007B229 /* Assets.xcassets */,
 				7C50C4D12A463BEA0007B229 /* LaunchScreen.storyboard */,
 				7C50C4D42A463BEA0007B229 /* Info.plist */,
+				7C50C4DC2A463DE80007B229 /* Sounds */,
 			);
 			path = "Xylophone-IOS";
 			sourceTree = "<group>";
@@ -126,7 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C50C4D32A463BEA0007B229 /* LaunchScreen.storyboard in Resources */,
-				7C50C4D02A463BEA0007B229 /* Assets.xcassets in Resources */,
+				7C50C4DB2A463C040007B229 /* Assets.xcassets in Resources */,
+				7C50C4DD2A463DE80007B229 /* Sounds in Resources */,
 				7C50C4CE2A463BE90007B229 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
