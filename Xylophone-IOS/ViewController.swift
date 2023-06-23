@@ -18,6 +18,13 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: UIButton) {
         playSound(ResourceName: sender.currentTitle!)
+        UIView.animate(withDuration: 0.2, animations: {
+               sender.alpha = 0.5 // Butonun opaklığını azaltın
+           }) { _ in
+               UIView.animate(withDuration: 0.3) {
+                   sender.alpha = 1.0 // Butonun opaklığını geri getirin
+               }
+           }
     }
     
     func playSound(ResourceName :String) {
